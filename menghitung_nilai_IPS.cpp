@@ -76,14 +76,6 @@ main()
         totalsks += sks;
         ips = totalmutu / totalsks ;
         
-        // totalmutu = totalmutu+mutumatkul;----> artinya sama saja dengan totalmutu+=mutumatkul
-        // A=A+1 ----> Itu sama saja dengan A+=1
-        // C=C+A ----> C+=A
-        // D= D * C ---> D*=C
-        // A++ ---> PRINT
-
-      
-        
         }
 
         makeline(55);
@@ -92,9 +84,7 @@ main()
         cout << "NIM     : " << nim << endl;
         cout << "Jurusan : " << jurusan << endl;
 
-    
-        
-
+   
         cout << "IPS     : " << ips << endl;
 
         cout <<               " Nilai anda otomatis tersimpan dalam sistem kami" << endl;
