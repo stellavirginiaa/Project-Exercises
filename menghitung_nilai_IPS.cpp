@@ -28,13 +28,9 @@ main()
                 float totalmutu=0;
                 float totalsks=0;
                 
-
-
-    
     time_t now = time(0);
     char * dt = ctime(&now);
 
-    
     makeline (55);
     cout << " " << endl;
     cout << "         Program Menghitung Nilai IPS Mahasiswa" << endl;
