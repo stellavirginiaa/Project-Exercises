@@ -20,12 +20,13 @@ cout << "Apakah anda sudah pernah mendaftar ?" << endl;
 cout << "1. Sudah" << endl;
 cout << "2. Belum" << endl;
 cout << "Masukkan jawaban : "; cin >> jawab; cin.ignore();
+cout << "\n";
 
     if ( jawab == '1' || jawab =='2' )
     {
     if ( jawab == '2' )
     {
-    cout << "Silahkan melakukan pendaftaran dengan mengisi form berikut" << endl;
+    cout << "SILAHKAN LAKUKAN PENDAFTARAN DENGAN FORM SEBAGAI BERIKUT !" << endl;
     cout << "Nama : "; getline(cin, nama); 
     cout << "NIK : "; getline(cin, nik); 
     cout << "Tanggal lahir ( DD ):"; cin >> tanggal; cin.ignore();
@@ -49,6 +50,7 @@ cout << "Masukkan jawaban : "; cin >> jawab; cin.ignore();
     
     cout << "\n";
     cout << "Masukkan nomor registrasi anda :  "; cin >> registrasi;
+    cout << "\n";
     cout << "Apa keluhan anda ?" << endl;
     cout << "1. Nyeri pada area dalam tubuh" << endl;
     cout << "2. Sakit pada bagian telinga,  hidung, dan tenggorokan" << endl;
@@ -73,6 +75,3 @@ cout << "Masukkan jawaban : "; cin >> jawab; cin.ignore();
     }
     
 }
-
-    
-
